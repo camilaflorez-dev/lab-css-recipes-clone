@@ -22,3 +22,79 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.recipe-info {
+  padding: 50px 700px;
+  text-align: justify;
+}
+
+.caption{
+  padding: 20px 20px 30px 25px;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul {
+  text-align: left;
+}
+
+.flex-center{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#background{
+  width: 800px;
+  height: 500px;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+#background h1{
+  color: white;
+  font-size: 60px;
+}
+
+
+/*.centered-text {
+  text-align: center;
+}*/
+
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 300px;
+
+}
+
+
+.line {
+  width: 100%; 
+  margin: 20px auto;
+  border-top: 1px solid gray;
+  justify-items: center;
+}
+
+#h3{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+
+
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
